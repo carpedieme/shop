@@ -2,3 +2,4 @@ com\test\TestPageHelper.class
 com\tt\controller\TbItemController.class
 com\tt\controller\ItemCatController.class
 com\tt\controller\PageControler.class
+com\test\TestFTPClient.class
