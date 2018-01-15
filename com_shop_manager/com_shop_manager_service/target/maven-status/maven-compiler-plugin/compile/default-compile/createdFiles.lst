@@ -1,3 +1,5 @@
 com\tt\service\tt\serviceImpl\TbTtemServiceImpl.class
+com\tt\service\tt\serviceImpl\TbItemCatServiceImpl.class
 com\tt\service\TbItemService.class
 com\shop\App.class
+com\tt\service\TbItemCatService.class

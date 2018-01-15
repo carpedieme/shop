@@ -29,7 +29,6 @@ public class TbItemController {
 
         EasyUIDateGrid eug=tbItemService.getItemList(page,rows);
         return  eug;
-
     }
 
 }
