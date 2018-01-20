@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e7ae2f7-30e1-4de3-b284-2a40e75db0bf" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_mapper/target/test-classes/com/shop/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_pojo/target/test-classes/com/shop/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/test-classes/com/shop/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/logs/access_log.2018-01-13" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_common/target/com_shop_common.jar" afterPath="$PROJECT_DIR$/com_shop_common/target/com_shop_common.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/classes/com/tt/service/TbItemService.class" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/classes/com/tt/service/TbItemService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/classes/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.class" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/classes/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/classes/com/tt/controller/TbItemController.class" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/classes/com/tt/controller/TbItemController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com_shop_common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/UploadImageService.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/UploadImageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/UploadImageServiceImpl.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/UploadImageServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/UploadController.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/UploadController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/resource/recource.properties" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/resource/recource.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-add.jsp" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/classes/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" afterPath="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" />
     </list>
@@ -32,69 +42,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestFTPClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/test/TestFTPClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="41" column="89" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadImageService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/UploadImageService.java">
+      <file leaf-file-name="TaotaoResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/TaotaoResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadImageServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/UploadImageServiceImpl.java">
+      <file leaf-file-name="TbItemService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recource.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/resource/recource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="336">
+              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/UploadController.java">
+      <file leaf-file-name="TbTtemServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1176">
+              <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml">
+      <file leaf-file-name="ItemCatController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/ItemCatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-add.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="70" column="72" lean-forward="true" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -116,6 +121,7 @@
       <find>com.taotao.</find>
       <find>maven-surefire-plugin</find>
       <find>selectItemCat</find>
+      <find>priceView</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,10 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItem.java" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_mapper/src/main/java/com/tt/mapper/TbItemMapper.java" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_mapper/src/main/java/com/tt/mapper/TbUserMapper.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_mapper/src/main/java/com/tt/mapper/TbContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_mapper/src/main/java/com/tt/mapper/TbContentMapper.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_mapper/src/main/java/com/tt/mapper/TbItemCatMapper.java" />
@@ -159,11 +161,8 @@
         <option value="$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/META-INF/maven/com.github.pagehelper/pagehelper/pom.properties" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/mybatis/SqlMapConfiger.xml" />
         <option value="$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/EasyUIDateGrid.java" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/test/TestPageHelper.java" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java" />
         <option value="$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/EasyTreeNode.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemCatService.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbItemCatServiceImpl.java" />
@@ -176,10 +175,17 @@
         <option value="$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/IDUtils.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/UploadImageImpl.java" />
-        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/JsonUtils.java" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/UploadImageService.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/UploadImageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/resource/recource.properties" />
+        <option value="$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/TaotaoResult.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java" />
+        <option value="$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
       </list>
     </option>
   </component>
@@ -239,10 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,16 +286,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_shop_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="JsonUtils" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="shop" type="b2602c69:ProjectViewProjectNode" />
@@ -453,10 +445,47 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_shop_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="com_shop_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="kindeditor-4.1.10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_shop_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="com_shop_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="kindeditor-4.1.10" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_shop_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="com_shop_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,9 +496,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.23161764" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="last_opened_file_path" value="D:/ddd/api-diandd/com.shovesoft.sp2p_ltjr.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="comm&#9;FILE&#9;file://D:/ideaProject/shop/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/common.js&#10;upload&#9;FILE&#9;file://D:/ideaProject/shop/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/file-upload.jsp&#10;TbItemCatMapper &#9;PSI&#9;JAVA://com.tt.mapper.TbItemCatMapper&#10;TbItem&#9;PSI&#9;JAVA://com.tt.mapper.TbItemCatMapper" />
+    <property name="SearchEverywhereHistoryKey" value="/pic/upload&#9;null&#9;null&#10;comm&#9;FILE&#9;file://D:/ideaProject/shop/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/common.js&#10;upload&#9;FILE&#9;file://D:/ideaProject/shop/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/file-upload.jsp&#10;TbItemCatMapper &#9;PSI&#9;JAVA://com.tt.mapper.TbItemCatMapper&#10;TbItem&#9;PSI&#9;JAVA://com.tt.mapper.TbItemCatMapper" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -737,7 +766,9 @@
       <workItem from="1515936629371" duration="17000" />
       <workItem from="1515937136266" duration="70000" />
       <workItem from="1515978275248" duration="3224000" />
-      <workItem from="1515994937899" duration="7497000" />
+      <workItem from="1515994937899" duration="9381000" />
+      <workItem from="1516341665444" duration="10330000" />
+      <workItem from="1516427099427" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="实现用户添加商品列表，搭建完成图片服务器，测试用户能够使用FTP工具类成功向服务器上传图片">
       <created>1515979460789</created>
@@ -753,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515980465565</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实现客户端上传图片到服务器">
+      <created>1516004959836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516004959836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -777,7 +815,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70425000" />
+    <option name="totallyTimeSpent" value="84439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,29 +830,28 @@
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907727" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907727" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24356224" sideWeight="0.4959631" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18508583" sideWeight="0.4959631" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25912017" sideWeight="0.5040369" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907727" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -822,17 +859,29 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现用户添加商品列表，搭建完成图片服务器，测试用户能够使用FTP工具类成功向服务器上传图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现用户添加商品列表，搭建完成图片服务器，测试用户能够使用FTP工具类成功向服务器上传图片" />
+    <MESSAGE value="实现客户端上传图片到服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现客户端上传图片到服务器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,69 +890,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/plugin/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/META-INF/maven/com.github.pagehelper/pagehelper/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/META-INF/maven/com.github.pagehelper/pagehelper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/com/github/pagehelper/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/mybatis/SqlMapConfiger.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com_shop_common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
@@ -944,28 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/PageControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1027,24 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/ItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemCatService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1082,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="198" column="15" lean-forward="true" selection-start-line="198" selection-start-column="15" selection-end-line="198" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,15 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,17 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/test/TestFTPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="41" column="89" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,46 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/file-upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="88" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/UploadImageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <marker date="1441183700000" expanded="true" signature="1425:1435" ph="..." />
-            <marker date="1441183700000" expanded="true" signature="1847:1887" ph="..." />
-            <marker date="1441183700000" expanded="true" signature="3186:3203" ph="..." />
-            <marker date="1441183700000" expanded="true" signature="3273:3290" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,48 +1084,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/test/TestFTPClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="337">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/file-upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/JsonUtils.java">
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/mybatis/SqlMapConfiger.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/PageControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1922">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/UploadImageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="-259">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/UploadController.java">
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/UploadImageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.4.2/jackson-databind-2.4.2.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="978" column="18" lean-forward="false" selection-start-line="978" selection-start-column="18" selection-end-line="978" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor-all-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/lang/zh_CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/resources/resource/recource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/TbItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_service/src/main/java/com/tt/service/tt/serviceImpl/TbTtemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_common/src/main/java/com/tt/util/TaotaoResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/java/com/tt/controller/TbItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/kindeditor-4.1.10/kindeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1793" column="0" lean-forward="false" selection-start-line="1793" selection-start-column="0" selection-end-line="1793" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.9/druid-1.0.9.jar!/support/http/resources/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1" column="76792" lean-forward="false" selection-start-line="1" selection-start-column="76792" selection-end-line="1" selection-end-column="76792" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="148" column="4" lean-forward="false" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+          <folding>
+            <marker date="1441183700000" expanded="true" signature="1425:1435" ph="..." />
+            <marker date="1441183700000" expanded="true" signature="1847:1887" ph="..." />
+            <marker date="1441183700000" expanded="true" signature="3186:3203" ph="..." />
+            <marker date="1441183700000" expanded="true" signature="3273:3290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_shop_manager/com_shop_manager_web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="70" column="72" lean-forward="true" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
           <folding />
         </state>
       </provider>

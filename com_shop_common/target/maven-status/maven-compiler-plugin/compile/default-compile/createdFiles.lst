@@ -1,5 +1,6 @@
-com\shop\MyPortlet.class
-com\tt\util\EasyTreeNode.class
 com\tt\util\JsonUtils.class
 com\tt\util\IDUtils.class
 com\tt\util\EasyUIDateGrid.class
+com\tt\util\TaotaoResult.class
+com\shop\MyPortlet.class
+com\tt\util\EasyTreeNode.class

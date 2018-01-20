@@ -6,5 +6,10 @@ import java.util.Map;
 
 public interface UploadImageService {
 
+    /**
+     * 上传图片
+     * @param multipartFile
+     * @return
+     */
     Map uploadImages(MultipartFile multipartFile);
 }

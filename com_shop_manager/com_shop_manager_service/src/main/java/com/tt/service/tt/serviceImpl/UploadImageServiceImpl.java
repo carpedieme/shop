@@ -50,7 +50,6 @@ public class UploadImageServiceImpl implements UploadImageService {
             }
             map.put("error",0);
             map.put("url",imageBaseUrl+filepath+"/"+newName);
-
             return map;
         } catch (Exception e) {
             map.put("error", 1);

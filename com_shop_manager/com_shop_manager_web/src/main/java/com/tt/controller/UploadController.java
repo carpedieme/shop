@@ -16,7 +16,11 @@ public class UploadController {
     @Autowired
     private UploadImageService uploadImageService;
 
-
+    /**
+     * 上传图片
+     * @param uploadFile
+     * @return
+     */
     @RequestMapping("/pic/upload")
     @ResponseBody
     public String uploadImage(MultipartFile uploadFile){
