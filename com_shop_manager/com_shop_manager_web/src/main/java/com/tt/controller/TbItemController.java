@@ -44,11 +44,18 @@ public class TbItemController {
         return  eug;
     }
 
+    /**
+     *添加商品以及商品描述
+     * @param item
+     * @param desc
+     * @return
+     * @throws Exception
+     */
     @RequestMapping(value = "/item/save",method = RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult getItem(TbItem item){
+    public TaotaoResult getItem(TbItem item,String desc,String itemParams) throws Exception {
 
-       return tbItemService.createItem(item);
+       return tbItemService.createItem(item,desc,itemParams);
 
     }
 

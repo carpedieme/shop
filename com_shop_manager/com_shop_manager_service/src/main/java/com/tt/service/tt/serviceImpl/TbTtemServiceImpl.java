@@ -2,9 +2,13 @@ package com.tt.service.tt.serviceImpl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.tt.mapper.TbItemDescMapper;
 import com.tt.mapper.TbItemMapper;
+import com.tt.mapper.TbItemParamItemMapper;
 import com.tt.pojo.TbItem;
+import com.tt.pojo.TbItemDesc;
 import com.tt.pojo.TbItemExample;
+import com.tt.pojo.TbItemParamItem;
 import com.tt.service.TbItemService;
 import com.tt.util.EasyUIDateGrid;
 import com.tt.util.IDUtils;
@@ -21,6 +25,12 @@ public class TbTtemServiceImpl implements TbItemService {
 
     @Autowired
     private TbItemMapper tbItemMapper;
+
+    @Autowired
+    private TbItemDescMapper descMapper;
+
+    @Autowired
+    private TbItemParamItemMapper paramItemMapper;
 
 
     @Override
@@ -58,7 +68,7 @@ public class TbTtemServiceImpl implements TbItemService {
     }
 
     @Override
-    public TaotaoResult createItem(TbItem item) {
+    public TaotaoResult createItem(TbItem item,String desc,String itemParams)  throws Exception{
 //item补全
         Long id = IDUtils.genItemId();
         item.setId(id);
@@ -69,6 +79,47 @@ public class TbTtemServiceImpl implements TbItemService {
         item.setUpdated(new Date());
         //插入到数据库表
         tbItemMapper.insert(item);
+        //添加商品描述
+        TaotaoResult result=insertItemDesc(desc,id);
+        if(result.getStatus()!=200){
+            throw new Exception();
+        }
+        //添加规格参数
+        result=insertTbItemparamItem(id,itemParams);
+        if(result.getStatus()!=200){
+            throw new Exception();
+        }
+        return TaotaoResult.ok();
+    }
+
+    /**
+     * 添加商品描述
+     * @param desc
+     * @param itemId
+     * @return
+     */
+    private  TaotaoResult insertItemDesc(String desc,Long itemId){
+     //调用商品描述
+        TbItemDesc desc1=new TbItemDesc();
+        desc1.setCreated(new Date());
+        desc1.setUpdated(new Date());
+        desc1.setItemDesc(desc);
+        desc1.setItemId(itemId);
+        descMapper.insert(desc1);
+         return  TaotaoResult.ok();
+
+    }
+
+
+    @Override
+    public TaotaoResult insertTbItemparamItem(long itemId, String itemParams) {
+        //创建一个pojo
+        TbItemParamItem paramItem=new TbItemParamItem();
+        paramItem.setCreated(new Date());
+        paramItem.setUpdated(new Date());
+        paramItem.setId(itemId);
+        paramItem.setParamData(itemParams);
+        paramItemMapper.insert(paramItem);
         return TaotaoResult.ok();
     }
 }
