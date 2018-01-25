@@ -117,7 +117,7 @@ public class TbTtemServiceImpl implements TbItemService {
         TbItemParamItem paramItem=new TbItemParamItem();
         paramItem.setCreated(new Date());
         paramItem.setUpdated(new Date());
-        paramItem.setId(itemId);
+        paramItem.setItemId(itemId);
         paramItem.setParamData(itemParams);
         paramItemMapper.insert(paramItem);
         return TaotaoResult.ok();
