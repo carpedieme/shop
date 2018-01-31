@@ -3,9 +3,11 @@ package com.tt.rest.service;
 import com.tt.mapper.TbItemCatMapper;
 import com.tt.pojo.TbItemCat;
 import com.tt.pojo.TbItemCatExample;
+import com.tt.rest.dao.JedisClient;
 import com.tt.rest.pojo.CatNode;
 import com.tt.rest.pojo.CatResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -16,6 +18,12 @@ public class ItemCatServiceImpl implements ItemCatService {
 
     @Autowired
     private TbItemCatMapper itemCatMapper;
+    //调用工具类
+    @Autowired
+    private JedisClient jedisClient;
+
+    @Value("${index_content_redis_key}")
+    private String index_content_redis_key;
 
     @Override
     public CatResult getCatItemList() {
@@ -24,29 +32,27 @@ public class ItemCatServiceImpl implements ItemCatService {
         //查询分类列表
         catResult.setData(getCatList(0));
         return catResult;
-
-
     }
-
     /**
      * 查询分类列表
      * <p>Title: getCatList</p>
      * <p>Description: </p>
-     *
      * @param parentId
      * @return
      */
     private List<?> getCatList(long parentId) {
+
         //创建查询条件
         TbItemCatExample example = new TbItemCatExample();
         TbItemCatExample.Criteria criteria = example.createCriteria();
         criteria.andParentIdEqualTo(parentId);
         //执行查询
         List<TbItemCat> list = itemCatMapper.selectByExample(example);
+
         //返回值list
         List resultList = new ArrayList<>();
         //向list中添加节点
-        int count=0;
+        int count = 0;
         for (TbItemCat tbItemCat : list) {
             //判断是否为父节点
             if (tbItemCat.getIsParent()) {
@@ -63,7 +69,7 @@ public class ItemCatServiceImpl implements ItemCatService {
                 resultList.add(catNode);
                 count++;
                 //取出14条记录
-                if(parentId==0&&count>=14){
+                if (parentId == 0 && count >= 14) {
                     break;
 
                 }
@@ -72,6 +78,7 @@ public class ItemCatServiceImpl implements ItemCatService {
                 resultList.add("/products/" + tbItemCat.getId() + ".html|" + tbItemCat.getName());
             }
         }
+
         return resultList;
     }
 

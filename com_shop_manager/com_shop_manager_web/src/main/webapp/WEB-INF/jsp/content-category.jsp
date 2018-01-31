@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!--要展示的tree-->
 <div>
 	 <ul id="contentCategory" class="easyui-tree">
     </ul>
@@ -10,9 +11,11 @@
     <div data-options="iconCls:'icon-remove',name:'delete'">删除</div>
 </div>
 <script type="text/javascript">
+    //页面初始化时需要需要加载的函数
 $(function(){
+    //内容分类管理
 	$("#contentCategory").tree({
-		url : '/content/category/list',
+		url : '/content/category/list',//初始化树形视图的URL
 		animate: true,
 		method : "GET",
 		onContextMenu: function(e,node){
@@ -26,7 +29,8 @@ $(function(){
         onAfterEdit : function(node){
         	var _tree = $(this);
         	if(node.id == 0){
-        		// 新增节点
+        		// id=0时新增节点
+                //请求url  /content/category/create    参数{parentId:node.parentId,name:node.text}
         		$.post("/content/category/create",{parentId:node.parentId,name:node.text},function(data){
         			if(data.status == 200){
         				_tree.tree("update",{
@@ -38,7 +42,7 @@ $(function(){
         			}
         		});
         	}else{
-        		$.post("/content/category/update",{id:node.id,name:node.text});
+        		$.post("/content/category/update",{id:node.id,name:node.text});//更新处理
         	}
         }
 	});
@@ -51,13 +55,13 @@ function menuHandler(item){
             parent: (node?node.target:null),
             data: [{
                 text: '新建分类',
-                id : 0,
+                id : 0,//新增节点设置为0
                 parentId : node.id
             }]
         }); 
 		var _node = tree.tree('find',0);
 		tree.tree("select",_node.target).tree('beginEdit',_node.target);
-	}else if(item.name === "rename"){
+	}else if(item.name === "rename"){//重命名
 		tree.tree('beginEdit',node.target);
 	}else if(item.name === "delete"){
 		$.messager.confirm('确认','确定删除名为 '+node.text+' 的分类吗？',function(r){

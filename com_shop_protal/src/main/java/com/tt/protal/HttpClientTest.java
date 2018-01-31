@@ -74,7 +74,7 @@ public class HttpClientTest {
         //创建一个client对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //创建一个post对象
-        HttpPost post = new HttpPost("http://localhost:8082/httpclient/post.html");
+        HttpPost post = new HttpPost("http://localhost:8082/httpclient/post.action");
         //执行请求
         CloseableHttpResponse response = httpClient.execute(post);
         //获取响应结果
@@ -96,13 +96,15 @@ public class HttpClientTest {
         //创建一个client对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //创建一个post对象
-        HttpPost post = new HttpPost("http://localhost:8082/httpclient/post.html");
+        HttpPost post = new HttpPost("http://localhost:8082/httpclient/post.action");
         //创建一个entity 模拟一个表单
         List<NameValuePair> kvlist=new ArrayList<>();
-        kvlist.add(new BasicNameValuePair("username","usertest"));
+//        kvlist.add(new BasicNameValuePair("username","usertest"));
+        //解决中文乱码问题 在后台打印出来的不是乱码，但是相应的时候出现乱码，需要在对应的controller上面添加注解
+        kvlist.add(new BasicNameValuePair("username","绽放过圣诞"));
         kvlist.add(new BasicNameValuePair("password","123456"));
         //包装为一个entity对象
-        StringEntity string =new UrlEncodedFormEntity(kvlist);
+        StringEntity string =new UrlEncodedFormEntity(kvlist,"utf-8");
         //设置请求的内容
         post.setEntity(string);
         //执行请求
