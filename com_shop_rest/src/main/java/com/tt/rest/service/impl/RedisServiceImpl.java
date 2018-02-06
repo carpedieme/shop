@@ -1,6 +1,7 @@
-package com.tt.rest.service;
+package com.tt.rest.service.impl;
 
 import com.tt.rest.dao.JedisClient;
+import com.tt.rest.service.RedisService;
 import com.tt.util.TaotaoResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

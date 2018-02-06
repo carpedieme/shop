@@ -44,7 +44,8 @@
 <li class="item-book" bookid="11078102">
 	<div class="p-img">
 		<a target="_blank" href="/item/${item.id }.html">
-			<img width="160" height="160" data-img="1" data-lazyload="${item.image}" />
+			<%--防止上传多张图片，所以取集合中的第一张--%>
+			<img width="160" height="160" data-img="1" data-lazyload="${item.images[0]}" />
 		</a>
 	</div>
 	<div class="p-name">

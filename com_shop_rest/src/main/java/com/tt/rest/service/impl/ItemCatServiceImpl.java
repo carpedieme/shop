@@ -1,4 +1,4 @@
-package com.tt.rest.service;
+package com.tt.rest.service.impl;
 
 import com.tt.mapper.TbItemCatMapper;
 import com.tt.pojo.TbItemCat;
@@ -6,6 +6,7 @@ import com.tt.pojo.TbItemCatExample;
 import com.tt.rest.dao.JedisClient;
 import com.tt.rest.pojo.CatNode;
 import com.tt.rest.pojo.CatResult;
+import com.tt.rest.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

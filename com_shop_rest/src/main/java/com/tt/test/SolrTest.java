@@ -40,8 +40,6 @@ public class SolrTest {
         //提交
         solrServer.commit();
     }
-
-
     @Test
     public void queryList() throws SolrServerException {
         //创建连接
@@ -53,9 +51,8 @@ public class SolrTest {
         //分页
         query.setStart(20);
         query.setRows(50);
-       //执行查询
+        //执行查询
         QueryResponse response =solrServer.query(query);
-
         //获取查询结果
         SolrDocumentList documentList=response.getResults();
         System.out.println("共查询到记录"+documentList.getNumFound());
@@ -64,8 +61,6 @@ public class SolrTest {
             System.out.println(solrdocument.get("item_title"));
             System.out.println(solrdocument.get("item_price"));
             System.out.println(solrdocument.get("item_image"));
-
-
         }
     }
 }

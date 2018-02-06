@@ -1,9 +1,10 @@
-package com.tt.rest.service;
+package com.tt.rest.service.impl;
 
 import com.tt.mapper.TbContentMapper;
 import com.tt.pojo.TbContent;
 import com.tt.pojo.TbContentExample;
 import com.tt.rest.dao.JedisClient;
+import com.tt.rest.service.ContentService;
 import com.tt.util.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
