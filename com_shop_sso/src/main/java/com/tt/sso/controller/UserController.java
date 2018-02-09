@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * @author sjg
  */
@@ -104,10 +107,10 @@ public class UserController {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult userLogin(String username, String password) {
+    public TaotaoResult userLogin(String username, String password, HttpServletRequest request, HttpServletResponse response) {
 
         try {
-            TaotaoResult result = userService.userLogin(username, password);
+            TaotaoResult result = userService.userLogin(username, password,request,response);
             return result;
         } catch (Exception e) {
             e.printStackTrace();
@@ -136,6 +139,35 @@ public class UserController {
             mappingJacksonValue.setJsonpFunction(callback);
             return mappingJacksonValue;
         }
+    }
+
+    /**
+     * 用户退出登录
+     * @param token
+     * @param callback
+     * @return
+     */
+    @RequestMapping("/logout/{token}")
+    @ResponseBody
+    public Object loginOut(@PathVariable String token, String callback) {
+        TaotaoResult result = null;
+
+        try {
+            result = userService.userLoginOut(token);
+        } catch (Exception e) {
+            e.printStackTrace();
+            result = TaotaoResult.build(400, "用户退出登录失败。。。。");
+        }
+        //判断是否为jsonp调用
+        if (StringUtils.isBlank(callback)) {
+            return result;
+        } else {
+            MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(result);
+            mappingJacksonValue.setJsonpFunction(callback);
+            return mappingJacksonValue;
+        }
+
+
     }
 
 }
