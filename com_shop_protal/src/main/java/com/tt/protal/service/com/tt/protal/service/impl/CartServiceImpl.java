@@ -54,7 +54,7 @@ public class CartServiceImpl implements CartService {
         if (cartItem == null) {
             cartItem = new CartItem();
             //通过HttpClientUtil调用rest服务查询商品信息
-            String json = HttpClientUtil.doGet(item_base_url + rest_baseurl + itemId);
+            String json = HttpClientUtil.doGet( rest_baseurl +item_base_url+ itemId);
             if (json != null) {
                 //吧json转换为java对象
                 TaotaoResult result = TaotaoResult.formatToPojo(json, TbItem.class);
